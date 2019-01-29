@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    background-color: #777;
+    width: 960px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.main {
+    display:flex;
+    flex-wrap: wrap;
+    padding: 25px;
+    margin-left: 75px;
+    margin-right: 75px;
+    flex-direction: column;
+    background: #777;
+}
+
+.header {
+    background: #ebebeb;
+    color: #777;
+    height: 100px;
+    flex: .2;
+    text-align: center;
+    line-height: 100px;
+}
+
+.nav {
+    background: #ebebeb;
+    color: #777;
+    height: 100px;
+    margin-top: 10px;
+    flex: .2;
+    text-align: center;
+    line-height: 100px;
+}
+
+.section {
+    margin-top: 20px;
+    height: 300px;
+    flex-wrap: wrap;
+    display: flex;
+    flex: .4;
+    color: #777;
+    text-align: center;
+}
+
+.section-left {
+    background: #ebebeb;
+    color: #777;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 495px;
+    text-align: center;
+
+}
+
+.section-aside {
+    flex:1;
+    margin-left: 20px;
+    width: 495px;
+    background: #ebebeb;
+    text-align: center;
+}
+
+.section-article {
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    color: #ebebeb;
+    background: #777;
+    padding: 15px;
+    height: 140px;
+    text-align: center;
+}
+
+.article-contents {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+
+.article-header {
+    background: #ebebeb;
+    text-align: center;
+    margin-top: 40px;
+    height: 50px;
+    color: #777;
+}
+
+.article-p {
+    flex: 1;
+    color: #777;
+    margin-top: 10px;
+    background: #ebebeb;
+    text-align: center;
+    height: 50px;
+}
+
+.footer {
+    background: #ebebeb;
+    color: #777;
+    margin-top: 20px;
+    height: 100px;
+    flex: .2;
+    text-align: center;
+    line-height: 100px;
+}
+
+h1 {
+    background: #ebebeb;
+    color: #777;
+    line-height: 100px;
+    text-align: center;
+}
+
+p {
+    background: #ebebeb;
+    color:#777;
+    line-height: 100px;
+    text-align: center;
+}
